@@ -4,11 +4,13 @@ public class Stork {
     private int height;
     private int weight;
     private String eyesColor;
+    private int heightOfFly;
 
-    public Stork (int height, int weight, String eyesColor) {
+    public Stork (int height, int weight, String eyesColor, int heightOfFly) {
         this.height = height;
         this.weight = weight;
         this.eyesColor = eyesColor;
+        this.heightOfFly = heightOfFly;
         
     }
 
