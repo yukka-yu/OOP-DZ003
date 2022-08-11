@@ -20,12 +20,9 @@ public class Dog extends HomeAnimal {
     public void training(){
         trained = true;
     }
-
     @Override
     public String printInfo(){
         return String.format("%s\ntrained: ", super.printInfo(), this.trained);
     }
-
-
 
 }

@@ -1,20 +1,19 @@
 ﻿package Animals;
-public class Chicken {
-
-    private int height;
-    private int weight;
+public class Chicken extends Bird{
+    
     private int heightOfFly;
-    private String eyeColor;
-
-    public Chicken (int height, int weight, int heightOfFly, String eyeColor) {
+    
+    public Chicken (int height, int weight,  String eyeColor, String color, int heightOfFly) {
         
-        this.height = height;
-        this.weight = height;
-        this.height = heightOfFly;
-        this.eyeColor = eyeColor;
-
+        super (height, weight, eyeColor, color, heightOfFly);
+    }
+    
+    @Override
+    public void makeSound() {
+        System.out.println("кудах-тах-тах");
     }
 
+    @override
     public void Fly() {
         System.out.println(String.format("%s %d", "лечу на бреющем полете, высота ",this.heightOfFly));
     }
