@@ -1,3 +1,5 @@
+package Animals;
+
 public abstract class Bird extends Animal{
 
     int heightOfFlight;
