@@ -1,11 +1,11 @@
 ﻿public class Chicken {
 
-    private double height;
-    private double weight;
-    private double heightOfFly;
+    private int height;
+    private int weight;
+    private int heightOfFly;
     private String eyeColor;
 
-    public Chicken (double height, double weight, double heightOfFly, String eyeColor) {
+    public Chicken (int height, int weight, int heightOfFly, String eyeColor) {
         
         this.height = height;
         this.weight = height;
@@ -14,7 +14,7 @@
 
     }
 
-    public void toFly() {
-        System.out.println(String.format("%s %4.2f", "лечу на бреющем полете, высота ",this.heightOfFly));
+    public void Fly() {
+        System.out.println(String.format("%s %d", "лечу на бреющем полете, высота ",this.heightOfFly));
     }
 }
