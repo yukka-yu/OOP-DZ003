@@ -12,14 +12,14 @@ public class Dog {
 
     /**Конструктор */
     public Dog(int height, int weight, String eyeColor, String name, String breed, Boolean vaccinated, String color, String dateOfBirth){
-        this.height;
-        this.weight;
-        this.eyeColor;
-        this.name;
-        this.breed;
-        this.vaccinated;
-        this.color;
-        this.dateOfBirth;
+        this.height = height;
+        this.weight = weight;
+        this.eyeColor = eyeColor;
+        this.name = name;
+        this.breed = breed;
+        this.vaccinated = vaccinated;
+        this.color = color;
+        this.dateOfBirth = dateOfBirth;
     }
 
     public void makeSound(){
