@@ -7,11 +7,22 @@
 // И методами:
 // 1. Издавать звук
 
-public class Tiger extends Animals {
+public class Tiger {
+    private int height;
+    private int weight;
+    private String eyesColor;
+    private String liveArea;
+    private int dateOfFound;
+
     public Tiger (int height, int weight, String eyesColor, String liveArea, int dateOfFound){
-        super(height, weight, eyesColor, liveArea, dateOfFound);
+        this.height = height;
+        this.weight = weight;
+        this.eyesColor = eyesColor;
+        this.liveArea = liveArea;
+        this.dateOfFound = dateOfFound;
     }
 
-    
-    
+        public void MakeSound(){
+        System.out.println("Рычу");
+    }
 }
