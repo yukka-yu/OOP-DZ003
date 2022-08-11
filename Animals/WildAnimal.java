@@ -17,7 +17,7 @@ public abstract void makeSound();
 
 @Override
 public String printInfo (){
-    return String.format ("%s, %s, %s", super.PrintInfo, this.lifeArea, this.dateOfFound);
+    return String.format ("%s, %s, %s", super.printInfo(), this.lifeArea, this.dateOfFound);
 
 }
 }
