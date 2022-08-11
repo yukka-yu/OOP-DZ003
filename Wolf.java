@@ -4,8 +4,8 @@
     private int height;
     private int weight;
     private String eye_color;
-    private int liveArea;
-    private int dateOfFound;
+    private String liveArea;
+    private String dateOfFound;
     private String pack_leader;
 
     public Wolf (int height,  int weight, String eye_color, String liveArea, String dateOfFound, String pack_leader) {
@@ -21,6 +21,6 @@
     }
 
     public void Make_sound() {
-        System.out.println(RRR));
+        System.out.println("RRR");
     }
 }
