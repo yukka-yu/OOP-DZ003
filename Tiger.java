@@ -25,6 +25,6 @@ public class Tiger {
     }
 
     public void MakeSound(){
-        System.out.println(String.format("%s %d","Рычу - РРРРРРР", this.MakeSound()));
+        System.out.println(String.format("%s %d","Рычу - РРРРРРР", this.MakeSound));
     }
 }
