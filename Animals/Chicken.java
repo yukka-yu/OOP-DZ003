@@ -15,6 +15,10 @@ public class Chicken {
 
     }
 
+    public void makeSound() {
+        System.out.println("кудах-тах-тах");
+    }
+
     public void Fly() {
         System.out.println(String.format("%s %d", "лечу на бреющем полете, высота ",this.heightOfFly));
     }
