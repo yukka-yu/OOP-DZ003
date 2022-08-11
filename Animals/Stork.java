@@ -1,3 +1,4 @@
+package Animals;
 
 public class Stork {
     private int height;
@@ -13,12 +14,13 @@ public class Stork {
         this.heightOfFly = heightOfFly;
         
     }
+    public void fly() {
 
-        public void fly() {
             System.out.println("Лечу");
         }
-        public void makeSound() {
-            System.out.println("Я не знаю какие звуки издают аисты, пусть каркает");
+    public void makeSound() {
+
+        System.out.println("Я не знаю какие звуки издают аисты, пусть каркает");
     }
 
 }

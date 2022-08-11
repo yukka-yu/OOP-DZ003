@@ -1,3 +1,5 @@
+package Animals;
+
 public class Wolf {
 
     private int height;
