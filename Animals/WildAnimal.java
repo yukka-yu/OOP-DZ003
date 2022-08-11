@@ -1,6 +1,6 @@
 ﻿package Animals;
 
-public abstract class WildAnimal {
+public abstract class WildAnimal extends Animal{
 
     protected String lifeArea;
     private String dateOfFound;
