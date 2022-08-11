@@ -13,16 +13,18 @@ public class Tiger {
     private String eyesColor;
     private String liveArea;
     private int dateOfFound;
+    private String MakeSound;
 
-    public Tiger (int height, int weight, String eyesColor, String liveArea, int dateOfFound){
+    public Tiger (int height, int weight, String eyesColor, String liveArea, int dateOfFound, String MakeSound){
         this.height = height;
         this.weight = weight;
         this.eyesColor = eyesColor;
         this.liveArea = liveArea;
         this.dateOfFound = dateOfFound;
+        
     }
 
-        public void MakeSound(){
-        System.out.println("Рычу");
+    public void MakeSound(){
+        System.out.println(String.format("%s %d","Рычу - РРРРРРР", this.MakeSound()));
     }
 }
