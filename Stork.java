@@ -1,10 +1,10 @@
-import java.lang.reflect.WildcardType;
 
 public class Stork {
     private int height;
     private int weight;
     private String eyesColor;
     private int heightOfFly;
+    
 
     public Stork (int height, int weight, String eyesColor, int heightOfFly) {
         this.height = height;
@@ -16,6 +16,9 @@ public class Stork {
 
         public void Fly(){
         System.out.println("Лечу");
+
+        public void MakeSound() {
+            System.out.println("Я не знаю какие звуки издают аисты, пусть каркает");
     }
 
 }
