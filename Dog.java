@@ -1,5 +1,3 @@
-package sem003;
-
 public class Dog {
     int height;
     int weight;

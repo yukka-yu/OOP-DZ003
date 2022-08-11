@@ -1,5 +1,4 @@
- 
-﻿public class Wolf {
+public class Wolf {
 
     private int height;
     private int weight;
