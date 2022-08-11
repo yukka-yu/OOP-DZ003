@@ -3,10 +3,9 @@ public class Chicken extends Bird{
     
     private int heightOfFly;
     
-    public Chicken (int height, int weight, int heightOfFly, String eyeColor) {
+    public Chicken (int height, int weight,  String eyeColor, String color, int heightOfFly) {
         
-        super (height,height, eyeColor);
-        this.heightOfFly = heightOfFly;        
+        super (height, weight, eyeColor, color, heightOfFly);
     }
     
     @Override
