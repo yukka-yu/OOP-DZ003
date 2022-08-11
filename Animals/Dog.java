@@ -1,5 +1,4 @@
-package sem003;
-
+package Animals;
 public class Dog {
     int height;
     int weight;

@@ -1,3 +1,4 @@
+package Animals;
 public class Cat {
     private int height;
     private int weight;

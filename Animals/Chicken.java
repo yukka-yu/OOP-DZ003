@@ -1,4 +1,5 @@
-﻿public class Chicken {
+﻿package Animals;
+public class Chicken {
 
     private int height;
     private int weight;
