@@ -14,7 +14,7 @@
 
     }
 
-    public String toFly() {
-        return String.format("%s %4.2f", "лечу на бреющем полете, высота ",this.heightOfFly);
+    public void toFly() {
+        System.out.println(String.format("%s %4.2f", "лечу на бреющем полете, высота ",this.heightOfFly));
     }
 }
