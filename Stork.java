@@ -14,10 +14,10 @@ public class Stork {
         
     }
 
-        public void Fly(){
+        public void fly(){
         System.out.println("Лечу");
 
-        public void MakeSound() {
+        public void makeSound() {
             System.out.println("Я не знаю какие звуки издают аисты, пусть каркает");
     }
 
