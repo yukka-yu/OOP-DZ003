@@ -1,8 +1,8 @@
 package Animals;
 
 public class Stork extends Bird{
-    public Stork (int height, int weight, String eyeColor, String color, int heightOfFlight){
-        super(height, weight, eyeColor, color, heightOfFlight);     
+    public Stork (int height, int weight, String eyeColor, int heightOfFlight){
+        super(height, weight, eyeColor, heightOfFlight);     
     }
 
     @Override

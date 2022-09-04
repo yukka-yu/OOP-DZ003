@@ -1,27 +1,21 @@
 package Animals;
 
-public class Wolf {
+public class Wolf extends WildAnimal{
 
-    private int height;
-    private int weight;
-    private String eye_color;
-    private String liveArea;
-    private String dateOfFound;
-    private String pack_leader;
+    protected String packLeader;
 
-    public Wolf (int height,  int weight, String eye_color, String liveArea, String dateOfFound, String pack_leader) {
-        
-        this.height = height;
-        this.weight = height;
-        this.eye_color = eye_color;
-        this.liveArea = liveArea;
-        this.dateOfFound = dateOfFound;
-        this.pack_leader = pack_leader;
-        
-
+    public Wolf(int height,  int weight, String eyeColor, String lifeArea, String dateOfFound, String packLeader) {
+        super(height, weight, eyeColor, lifeArea, dateOfFound);
+        this.packLeader = packLeader;
     }
 
-    public void Make_sound() {
+    @Override
+    public void makeSound() {
         System.out.println("RRR");
+    }
+
+    @Override
+    public String printInfo(){
+        return getClass().getSimpleName() + String.format(" [%s, %s ] ", super.printInfo(), packLeader);
     }
 }

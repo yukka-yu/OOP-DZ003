@@ -1,12 +1,20 @@
 package Animals;
 public class Dog extends HomeAnimal {
-    Boolean trained;
+    
+    protected Boolean trained;
 
     /**Конструктор */
-    public Dog(int height, int weight, String eyeColor, String name, String breed, Boolean vaccinated, String color, String dateOfBirth, Boolean trained){
-        super(height, weight, eyeColor, name, breed, vaccinated, color, dateOfBirth);
+    //public Dog(int height, int weight, String eyeColor, String name, String breed, String color, String dateOfBirth, Boolean vaccinated, Boolean trained){
+        //super(height, weight, eyeColor, name, breed, color, dateOfBirth, vaccinated);
+        //
+    //}
+
+    public Dog(int height, int weight, String eyesColor, String color, String dateOfBirth, String name, String breed, Boolean vaccinated, Boolean trained) {
+        super(height, weight, eyesColor, color, dateOfBirth, name, breed, vaccinated);
         this.trained = trained;
+        
     }
+
 
     @Override
     public void makeSound(){
@@ -22,7 +30,7 @@ public class Dog extends HomeAnimal {
     }
     @Override
     public String printInfo(){
-        return String.format("%s\ntrained: ", super.printInfo(), this.trained);
+        return getClass().getSimpleName() + String.format(" [ %s, trained: %b ] ", super.printInfo(), this.trained);
     }
 
 }

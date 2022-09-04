@@ -6,9 +6,8 @@ public abstract class HomeAnimal extends Animal {
     String name;
     String breed;
 
-    public HomeAnimal(int height, int weight, String eyesColor, String color, String dateOfBirth, 
-    Boolean vaccinated, String name, String breed){
-        super(height, weight, eyesColor, eyesColor);
+    public HomeAnimal(int height, int weight, String eyesColor, String color, String dateOfBirth, String name, String breed, Boolean vaccinated){
+        super(height, weight, eyesColor);
         this.dateOfBirth = dateOfBirth;
         this.vaccinated = vaccinated;
         this.name = name;
@@ -23,7 +22,7 @@ public abstract class HomeAnimal extends Animal {
 
     @Override
     public String printInfo(){
-        return String.format("%s  dateOfBirth: %s, vaccinated: %b, name: %s, breed: %s", 
+        return String.format("%s, dateOfBirth: %s, vaccinated: %b, name: %s, breed: %s", 
         super.printInfo(), this.dateOfBirth, this.vaccinated, this.name, this.breed);
     }
 
